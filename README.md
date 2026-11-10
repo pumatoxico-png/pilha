@@ -1,26 +1,19 @@
-# 🐍 Manipulação de Listas
+# 📚 Simulação de Pilha com Listas
 
-> Exercício de Python para praticar a criação e manipulação de listas.
+> Exercício de Python que demonstra o funcionamento de uma estrutura de dados do tipo pilha.
 
 ## 🎯 Objetivo
-Compreender como armazenar, adicionar, remover e acessar elementos de uma lista.
+Compreender o funcionamento de uma pilha utilizando listas, praticando inserção, remoção e acesso aos elementos.
 
-## 📚 Conceitos estudados
-- Criação de listas (`[]`)
-- Inserção de elementos (`append()`)
-- Remoção de elementos (`pop()`)
-- Contagem de elementos (`len()`)
-- Indexação negativa
+## 📚 Conceitos utilizados
+- Listas (`[]`)
+- `append()` — adicionar elementos.
+- `pop()` — remover o último elemento.
+- `len()` — consultar a quantidade de elementos.
+- Indexação negativa (`[-1]`)
+- LIFO (Last In, First Out).
 
-## ⚙️ Funcionamento
-
-1. Cria uma lista vazia chamada `historico`.
-2. Adiciona três elementos utilizando `append()`.
-3. Remove o último elemento utilizando `pop()`.
-4. Verifica a quantidade de elementos com `len()`.
-5. Acessa o último elemento utilizando `historico[-1]`.
-
-## 💻 Código utilizado
+## ⚙️ Código
 
 ```python
 historico = []
@@ -35,18 +28,9 @@ len(historico)
 historico[-1]
 ```
 
-## 📊 Resultado esperado
+## 📊 Funcionamento
 
-Após as operações:
-
-```text
-Lista: ['ligar', 'calibrar']
-Quantidade de elementos: 2
-Último elemento: calibrar
-```
-
-## 🧠 Aprendizado
-Com este exercício, pratiquei operações fundamentais de listas, entendendo como adicionar e remover elementos, consultar seu tamanho e acessar posições específicas.
-
-## 🚀 Possível melhoria
-Exibir os resultados utilizando `print()` e permitir que o usuário adicione elementos à lista.
+1. Cria uma lista vazia chamada `historico`.
+2. Adiciona três elementos utilizando `append()`.
+3. Remove o último elemento utilizando `pop()`.
+4. Consulta
